@@ -1,0 +1,25 @@
+****
+Why Java does not support Multiple Inheritance using classes:
+
+Definition:
+Multiple Inheritance is when a subclass wants to inherit from two or more superclasses.
+
+Problem (Diamond Problem):
+
+Every constructor in Java automatically calls super() or this().
+
+If a class inherits from two superclasses, the compiler faces ambiguity about which super() to call.
+
+This leads to the Diamond Problem.
+
+Conclusion:
+
+Java does not allow multiple inheritance with classes.
+
+Instead, Java achieves it using interfaces (since interfaces do not have constructors).
+
+Key Point from Java Design:
+
+Any new concept in Java must pass all test cases and provide valid results in all situations.
+
+To avoid ambiguity, multiple inheritance through classes was avoided.
