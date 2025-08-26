@@ -22,9 +22,11 @@ public class Order {
         return quantity * price;
     }
 
+
     @Override
     public String toString() {
         return String.format("🛒 Order ID: %s\n   Item: %s\n   Quantity: %d\n   Price: ₹%.2f\n   Total: ₹%.2f",
                 orderId, itemName, quantity, price, getTotalAmount());
     }
 }
+
