@@ -1,0 +1,28 @@
+/*
+ * final keyword in Java:
+ * -----------------------
+ * - It is used to provide some kind of restriction.
+ *
+ * We can use 'final' in 3 ways:
+ *   a) To declare a class as final  → Inheritance is not possible.
+ *   b) To declare a method as final → Overriding is not possible.
+ *   c) To declare a variable/field as final → Re-assignment is not possible.
+ *
+ * ---------------------------------------------------------------------
+ * To declare a class as final:
+ * ---------------------------------------------------------------------
+ * - Whenever we declare a class as final, that class cannot be extended or inherited.
+ * - If we try to extend it, compiler will throw an error.
+ *
+ * Use-case:
+ * - If the composition/logic of a class is very important and we don’t want
+ *   other developers to modify or inherit it, we should declare it as final.
+ *
+ * Note:
+ * - Declaring a class final does not mean the fields/methods inside are final.
+ * - Only the class behavior is restricted (cannot be extended).
+ * - But we can still modify fields and create objects of final classes.
+ *
+ * Example in Java:
+ * - String and all Wrapper classes (Integer, Double, etc.) are declared as final.
+ */
