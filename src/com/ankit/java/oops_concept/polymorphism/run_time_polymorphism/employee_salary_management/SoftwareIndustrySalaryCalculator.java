@@ -374,7 +374,7 @@ public class SoftwareIndustrySalaryCalculator {
         System.out.print("\nSelect Employee Role (1-6): ");
         int choice = Integer.parseInt(scanner.nextLine());
 
-        // Common details
+
         System.out.print("Enter Employee ID: ");
         int id = Integer.parseInt(scanner.nextLine());
 
@@ -384,7 +384,7 @@ public class SoftwareIndustrySalaryCalculator {
         System.out.print("Enter Basic Salary: ");
         double basicSalary = Double.parseDouble(scanner.nextLine());
 
-        // Role-specific details
+
         switch (choice) {
             case 1 -> {
                 System.out.print("Enter Projects Completed: ");
