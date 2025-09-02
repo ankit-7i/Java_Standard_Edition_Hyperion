@@ -1,20 +1,20 @@
 package com.ankit.java.oops_concept.polymorphism.run_time_polymorphism;
 
 // Example demonstrating Method Overriding with specific subclass behavior
-class RBI {
+class RBI1 {
     public void provideLoan() {
         System.out.println("Bank should provide loan");
     }
 }
 
-class ICICI extends RBI {
+class ICICI extends RBI1 {
     @Override
     public void provideLoan() {
         System.out.println("Provide loan @ 13% ROI"); // Overridden method
     }
 }
 
-class SBI extends RBI {
+class SBI1 extends RBI1{
     @Override
     public void provideLoan() {
         System.out.println("Provide loan @ 12.78 % ROI"); // Overridden method
