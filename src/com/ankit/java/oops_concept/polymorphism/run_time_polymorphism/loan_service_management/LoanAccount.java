@@ -8,9 +8,7 @@ public class LoanAccount {
     protected double loanAmount;
     protected int tenure;
 
-    public LoanAccount(String accountHolderName, String accountNumber,
-                       int cibilScore, String adharNumber,
-                       double loanAmount, int tenure) {
+    public LoanAccount(String accountHolderName, String accountNumber,int cibilScore, String adharNumber, double loanAmount, int tenure) {
         this.accountHolderName = accountHolderName;
         this.accountNumber = accountNumber;
         this.cibilScore = cibilScore;
