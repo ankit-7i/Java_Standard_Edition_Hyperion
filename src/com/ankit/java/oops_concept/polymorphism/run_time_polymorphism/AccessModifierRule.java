@@ -24,10 +24,10 @@ class Bird1 {
 class Parrot1 extends Bird1 {
     // ❌ Compilation Error:
     // Cannot override with 'protected' because it reduces visibility of 'public' method.
-    @Override
-    protected void roam() {   // Error: cannot reduce the visibility of the inherited method
-        System.out.println("Parrot Bird is roaming");
-    }
+   // @Override
+    //protected void roam() {   // Error: cannot reduce the visibility of the inherited method
+       // System.out.println("Parrot Bird is roaming");
+   // }
 }
 
 public class AccessModifierRule {
