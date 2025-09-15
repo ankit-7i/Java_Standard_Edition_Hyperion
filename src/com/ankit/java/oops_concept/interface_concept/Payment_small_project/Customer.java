@@ -18,48 +18,51 @@ public class Customer {
 
 
         switch (paymentChoice) {
-            case 1:
+            case 1->{
                 System.out.print("Enter Credit Card Holder Name: ");
                 scanner.nextLine();
                 String cardHolderName = scanner.nextLine();
                 payment = new CreditCardPayment(cardHolderName);
-                break;
-            case 2:
+                }
+            case 2-> {
                 System.out.print("Enter Debit Card Bank Name: ");
                 scanner.nextLine();
+
                 String bankName = scanner.nextLine();
                 payment = new DebitCardPayment(bankName);
-                break;
-            case 3:
+            }
+            case 3 -> {
                 System.out.print("Enter UPI ID: ");
                 scanner.nextLine();
+
                 String upiId = scanner.nextLine();
                 payment = new UPIPayment(upiId);
-                break;
-            default:
+            }
+            default-> {
                 System.out.println("Invalid choice!");
                 scanner.close();
                 return;
+            }
         }
 
-        // Checkout
         cart.checkout(payment);
-
-        // Ask if the user wants to cancel or save the order
         System.out.println("Choose an option:");
         System.out.println("1. Cancel Order");
         System.out.println("2. Save Order");
         int orderChoice = scanner.nextInt();
 
         switch (orderChoice) {
-            case 1:
-                cart.cancelOrder(payment);
-                break;
-            case 2:
+            case 1 ->
+                    {
+                        cart.cancelOrder(payment);
+                    }
+
+            case 2 -> {
                 cart.saveOrder();
-                break;
-            default:
+            }
+            default ->{
                 System.out.println("Invalid choice!");
+            }
         }
 
         scanner.close();
