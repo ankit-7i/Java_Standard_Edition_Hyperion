@@ -6,6 +6,9 @@ public class PaymentGatewayUsingInterface
     public static void main(String []  args )
     {
         Scanner sc = new Scanner (System.in);
+        System.out.println("Enter Your Payment Choice : ");
+        System.out.println("1) CreditCard  ");
+        System.out.println("2) UPI ");
         int choice = Integer.parseInt(sc.next());
         switch(choice)
         {
