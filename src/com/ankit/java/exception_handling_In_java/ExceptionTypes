@@ -1,0 +1,78 @@
+Different Criteria for Exception generation :
+----------------------------------------------
+1) java.lang.ArithmeticException :
+----------------------------------
+Whenever we divide a number by 0 (int value) then we will get an exception i.e java.lang.ArithmeticException
+
+int x = 100;
+int y = 0;
+int z = x /y;  //java.lang.ArithmeticException
+
+2) java.lang.ArrayIndexOutOfBoundsException
+-------------------------------------------
+Whenever we try to access the index of the array where element is not available then we will get java.lang.ArrayIndexOutOfBoundsException
+
+int []arr = {10,20,30};
+System.out.println(arr[3]);
+
+3) java.lang.NegativeArraySizeException
+----------------------------------------
+The size of an array must be positive integer (only int value is acceptable), if we pass -ve size then we will get an exception java.lang.NegativeArraySizeException
+
+int [] arr = new int[-10];
+
+4) java.lang.NumberFormatException
+----------------------------------
+If we try to convert any String value into corresponding primitive type OR Warpper type and if the String data is not available in numeric format then we will get an exception java.lang.NumberFormatException
+
+ String str = "one";
+ int x = Integer.parseInt(str);
+ System.out.println(x+2);
+
+
+String s1 = "two";
+Integer y = Integer.valueOf(s1);
+System.out.println(y+2);
+
+
+5) java.lang.NullPointerException :
+------------------------------------
+If a reference variable is pointing to null and if we try to invoke any non static method or non static field by using reference variable then we will get java.lang.NullPointerException
+
+Case 1 :
+--------
+String str = null;
+System.out.println(str.length());  //java.lang.NullPointerException
+
+Case 2 :
+--------
+String str = "null";
+System.out.println(str.length()+" : "+str.toUpperCase());
+
+Case 3 :
+--------
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter your name :");
+String name = sc.nextLine();  //"null"
+
+System.out.println(name.length()+" : "+name.toUpperCase());
+
+6) java.util.InputMismatchException :
+--------------------------------------
+If we try to read the data by using Scanner class method and if the data is not in a proper format/input then we will get exception java.util.InputMismatchException
+
+
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter your Salary :");
+double salary = sc.nextDouble(); //Eleven [Exception]
+System.out.println("Your Salary is :"+salary);
+
+7) java.lang.StringIndexOutOfBoundsException :
+-----------------------------------------------
+If we try to access the index of String (character Array) which index is not available then we will get java.lang.StringIndexOutOfBoundsException
+
+String str = "hyderabad";
+System.out.println(str.substring(-2,5));
+
+
+Note : ArrayIndexOutOfBoundsException class StringIndexOutOfBoundsException class both are sub class of java.lang.IndexOutOfBoundsException.

@@ -1,0 +1,14 @@
+Exception Handling :
+--------------------
+An exception is an abnormal situation OR un-expected situation in a normal execution flow.
+
+Due to an exception, the execution of the program will be disturbed first and then terminated permanently.
+
+Exception always encounter at runtime only.
+
+Exception encounter due to the following reasons :
+
+  1) The Wrong input given by the user.
+  2) Due to dependency, When one part of the program is dependent to another part to complete the task then there might be a chance of getting an exception.
+
+
