@@ -1,0 +1,23 @@
+
+*** Difference between throw and throws :
+
+throw [THROWING THE EXCEPTION OBJECT EXPLICITLY.]
+
+We should use throw keyword to throw the exception object explicitly, In case of try block, try block is responsible to create the exception object with JVM as well as throw the exception object to the nearest catch block.
+but if a developer wants to throw exception object explicitly then we should use throw keyword.
+
+throw new ArithmeticException();
+throw new LowBalanceException();
+
+
+after using throw keyword the control will transfer to the nearest catch block so after throw keyword statement, the remaining statements are un-reachable.
+
+throws :-
+
+throws keyword describes that the method might throw an Exception, It also might not. It is used only at the end of a
+method declaration to indicate what exceptions it supports OR what type of Exception it might throw at runtime.
+
+It is used to skip from the current situation so now the exception will be propagated to the caller method OR JVM for
+handling purpose.
+
+It is used to work with Checked Exception.
