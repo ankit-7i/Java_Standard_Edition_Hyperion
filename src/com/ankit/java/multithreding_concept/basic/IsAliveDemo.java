@@ -1,4 +1,4 @@
-package com.ankit.java.multithreding_concept;
+package com.ankit.java.multithreding_concept.basic;
 
 /**
  * public final boolean isAlive():
