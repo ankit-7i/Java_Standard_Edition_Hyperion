@@ -1,11 +1,10 @@
 package com.ankit.java.multithreding_concept.anonymous_inner_class_by_using_thread;
 
-// ELC (Executable Launch Class)
 public class OlaRidingApp
 {
     public static void main(String[] args)
     {
-        // Create objects for all 6 classes using anonymous inner class approach
+        // Anonymous Inner class
         Thread rideRequest = new Thread() {
             public void run() {
                 System.out.println("User requested a ride...");
@@ -80,11 +79,11 @@ public class OlaRidingApp
             }
         };
 
-        // Start RideRequest and FareCalculation threads together
+
         rideRequest.start();
         fareCalculation.start();
 
-        // Call join() on RideRequest thread
+
         try {
             rideRequest.join();
         } catch (InterruptedException e) {
