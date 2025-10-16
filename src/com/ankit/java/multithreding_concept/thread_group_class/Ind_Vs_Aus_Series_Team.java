@@ -9,7 +9,7 @@ class IndianCricketTeam implements Runnable {
         System.out.println(name + " ");
     }
 }
-class AustraliaCrickertTeam implements Runnable {
+class AustraliaCrickertTeam4 implements Runnable {
     @Override
     public void run(){
         String name = Thread.currentThread().getName();
