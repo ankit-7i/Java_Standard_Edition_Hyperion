@@ -1,4 +1,4 @@
-package com.ankit.java.string_comcept;
+package com.ankit.java.string_concept;
 
 public class String_Concept_1 {
 
