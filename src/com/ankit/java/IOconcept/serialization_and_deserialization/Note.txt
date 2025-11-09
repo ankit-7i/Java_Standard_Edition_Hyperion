@@ -1,0 +1,66 @@
+/**
+ * --------------------------------------------------------------------------
+ * *** Serialization and Deserialization :
+ * --------------------------------------------------------------------------
+ *
+ * Serialization :
+ * ---------------
+ * Serialization is a technique through which we can store an object in a file.
+ *
+ * In order to store the Object data in the file, we can use a predefined class
+ * available in java.io package called:
+ *
+ *          ObjectOutputStream
+ *
+ * ObjectOutputStream has provided a predefined non-static method writeObject(Object obj)
+ * to write the object into the file:
+ *
+ *          public void writeObject(Object obj)
+ *
+ *
+ * --------------------------------------------------------------------------
+ * De-Serialization :
+ * --------------------------------------------------------------------------
+ *
+ * De-Serialization is a technique through which we can read the object and
+ * its state from the file.
+ *
+ * In order to read the Object data from the file, we can use a predefined class
+ * called ObjectInputStream in java.io package.
+ *
+ * ObjectInputStream has provided a predefined non-static method readObject()
+ * to read the object from the file:
+ *
+ *          public Object readObject()
+ *
+ *
+ * --------------------------------------------------------------------------
+ * ILLUSTRATION:
+ *
+ *  Employee.java  --------------------------------------->  Employee.txt
+ *
+ *     p.s.v.main()          (Serialization)                (OBJECT DATA)
+ *     {
+ *        ObjectOutputStream   writeObject(Object obj)
+ *     }
+ *
+ *     p.s.v.main()           (De-Serialization)
+ *     {
+ *        ObjectInputStream    readObject()
+ *     }
+ *
+ * --------------------------------------------------------------------------
+ *
+ * * If we want to perform serialization on employee object then Employee class
+ *   must implement java.io.Serializable interface otherwise we will get
+ *   java.io.NotSerializableException.
+ *
+ * * If we are storing multiple objects to the file, then at the time of reading
+ *   all objects from the file, readObject() will throw one checked exception:
+ *
+ *          java.io.EOFException
+ *
+ *   This exception indicates END OF FILE.
+ *
+ * --------------------------------------------------------------------------
+ */
