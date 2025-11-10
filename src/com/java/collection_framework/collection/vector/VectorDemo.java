@@ -1,4 +1,4 @@
-package com.java.collection_framework.collection.vector.concurrent_modification_exception;
+package com.java.collection_framework.collection.vector;
 
 import java.util.Iterator;
 import java.util.List;
