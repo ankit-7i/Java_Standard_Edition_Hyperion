@@ -1,0 +1,27 @@
+/**
+ * *** LinkedList Data Structure ***
+ * ---------------------------------
+ * LinkedList is a linear or sequential data structure that stores elements in the form
+ * of Nodes, which are not stored in contiguous memory locations.
+ *
+ * - Each Node contains:
+ *      1. Data (the value)
+ *      2. Address/Reference of the next node (and optionally previous node)
+ *
+ * - Unlike ArrayList, LinkedList does not store elements in a fixed-size array.
+ *   Each node is linked using pointers, making it more efficient for insertion and
+ *   deletion operations in the middle or beginning of the list.
+ *
+ * - Since nodes are linked dynamically, LinkedList provides better performance for
+ *   frequent insertions or deletions but slower access time (O(n)) for random retrieval.
+ *
+ * *** Types of LinkedList ***
+ * 1. Singly LinkedList       → Nodes are linked in one forward direction only.
+ * 2. Doubly LinkedList       → Nodes have links in both forward and backward directions.
+ * 3. Circular LinkedList     → Last node points back to the first node.
+ * 4. Circular Doubly LinkedList → Combination of both circular and doubly.
+ *
+ * Note:
+ *  - 'APN' = Address of Previous Node
+ *  - 'ANN' = Address of Next Node
+ */
