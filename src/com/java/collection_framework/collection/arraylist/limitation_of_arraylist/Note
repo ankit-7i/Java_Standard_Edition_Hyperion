@@ -1,0 +1,25 @@
+/**
+ * Time Complexity of ArrayList Operations:
+ * ----------------------------------------
+ * 1. Insertion / Deletion (Middle or Beginning):
+ *    - Time Complexity: O(n)
+ *    - Reason: When inserting or deleting an element from the middle or beginning,
+ *      all subsequent elements are shifted to maintain order.
+ *      Hence, this operation is costly for large lists.
+ *
+ * 2. Insertion / Deletion (At the End):
+ *    - Time Complexity: O(1) (Amortized)
+ *    - Reason: Adding an element at the end does not require shifting.
+ *      However, if the internal array is full, a new array is created and elements are copied (resize cost).
+ *
+ * 3. Retrieval (Using get(index)):
+ *    - Time Complexity: O(1)
+ *    - Reason: ArrayList implements RandomAccess, allowing direct access
+ *      to any element by its index.
+ *
+ * Note:
+ * -----
+ * For frequent insertions or deletions in the middle of a list,
+ * use LinkedList instead of ArrayList since LinkedList provides
+ * better performance for such operations.
+ */
