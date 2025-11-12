@@ -1,4 +1,4 @@
-package com.java.collection_framework.collection.stack;
+package com.java.collection_framework.stack;
 
 /**
  * Demonstrates usage of Stack with different data types.

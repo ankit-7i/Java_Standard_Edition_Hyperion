@@ -1,4 +1,4 @@
-package com.java.collection_framework.collection;
+package com.java.collection_framework;
 
 /**
  * Collections Framework in Java  [40–45% IQ]

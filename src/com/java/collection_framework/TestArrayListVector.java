@@ -1,4 +1,4 @@
-package com.java.collection_framework.collection;
+package com.java.collection_framework;
 
 import java.util.Vector;
 import java.util.ArrayList;

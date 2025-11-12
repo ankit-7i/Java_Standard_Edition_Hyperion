@@ -1,4 +1,4 @@
-package com.java.collection_framework.collection;
+package com.java.collection_framework;
 
 /**
  * Collections Framework from JDK 1.2v

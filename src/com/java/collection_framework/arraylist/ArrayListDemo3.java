@@ -1,4 +1,4 @@
-package com.java.collection_framework.collection.arraylist;
+package com.java.collection_framework.arraylist;
 
 /**
  * ArrayListDemo3

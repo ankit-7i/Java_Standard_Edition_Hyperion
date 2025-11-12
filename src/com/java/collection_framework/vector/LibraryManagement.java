@@ -1,4 +1,4 @@
-package com.java.collection_framework.collection.vector;
+package com.java.collection_framework.vector;
 
 
 

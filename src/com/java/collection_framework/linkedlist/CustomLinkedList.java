@@ -1,4 +1,4 @@
-package com.java.collection_framework.collection.linkedlist;
+package com.java.collection_framework.linkedlist;
 
 // Singly LinkedList Example
 public class CustomLinkedList {
