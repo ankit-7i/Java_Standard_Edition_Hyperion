@@ -17,7 +17,7 @@ public class BookLibrary {
 
         System.out.print("Choose an option: ");
         int choice = Integer.parseInt(scn.nextLine());
-
+/*
         while (true){
             switch (choice){
                 case 1 ->{
@@ -44,7 +44,7 @@ public class BookLibrary {
         }
 
 
-
+*/
     }
 
 }
