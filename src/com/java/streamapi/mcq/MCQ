@@ -44,6 +44,35 @@ D) It is used to concatenate streams
 
 Answer:B (It is used to perform an action without interfering with the elements)
 
+23) What happens when you call get() on an empty Optional object?
+
+a) Returns null
+b) Returns a default value
+c) An NoSuchElementException is thrown
+d) An OptionalException is thrown
+
+Answer : C) An NoSuchElementException is thrown
+
+
+24) What is the difference between the map() and flatMap() methods in Optional?
+
+a) map() can return null, flatMap() cannot
+b) map() returns an Optional, flatMap() returns the value directly
+c) flatMap() flattens nested Optionals, map() does not
+d) There is no difference
+
+Answer : c) flatMap() flattens nested Optionals, map() does not
+
+
+25)  Which is the new method introduced in java 8 to iterate over a collection?
+a) for (String i : StringList)
+b) foreach (String i : StringList)
+c) stringList.forEach()
+d) List.for()
+
+Answer : c  (stringList.forEach())
+
+
 
 
 
