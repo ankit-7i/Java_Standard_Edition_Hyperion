@@ -24,7 +24,8 @@ public class Test19 {
             }
         }
         public static void main(String[] args) {
-            List<Employee> list = List.of(new Employee(1, "John") ,
+            List<Employee> list = List.of(
+                    new Employee(1, "John") ,
                     new Employee(5, "Ram") ,
                     new Employee(7, "Tear") ,
                     new Employee(4, "Jerry") ,
