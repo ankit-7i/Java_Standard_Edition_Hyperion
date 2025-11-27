@@ -1,0 +1,50 @@
+14)What is a Stream in the context of the Java 8 Stream API?
+
+A) A data structure for storing elements.
+B) A sequence of data elements that can be processed in parallel or sequentially.
+C) A container for holding collections.
+D) A type of exception thrown during runtime.
+
+Answer: B (A sequence of data elements that can be processed in parallel or sequentially.)
+
+15)Which method is used to create a Stream from a collection in Java 8?
+
+A) getStream()
+B) parallelStream()
+c) stream()
+D) createStream()
+
+Answer:C (stream())
+
+
+16)What is the purpose of the collect() method in the Stream API?
+
+A) To transform the elements of a Stream.
+B) To filter the elements in a Stream based on a predicate.
+C) To perform a reduction operation on the Stream elements.
+D) To accumulate the elements of a Stream into a collection or a summary result.
+
+Answer:D (To accumulate the elements of a Stream into a collection or a summary result.)
+
+17)What is the purpose of the Optional class in Java?
+
+A) To handle null values more gracefully
+B) To create immutable objects
+C) To manage thread synchronization
+D) To optimize memory usage
+
+Answer:A (To handle null values more gracefully)
+
+18)What is the purpose of the `peek` method in the Stream API?
+
+A) It is used to modify the elements of the stream
+B) It is used to perform an action without interfering with the elements
+C) It is used to skip elements in the stream
+D) It is used to concatenate streams
+
+Answer:B (It is used to perform an action without interfering with the elements)
+
+
+
+
+
