@@ -20,6 +20,7 @@ public class ElcProduct {
             System.out.println("Final price of both the objects..");
             System.out.println(p1); // 25000
             System.out.println(p2); // 23000
+
         }
 }
 
