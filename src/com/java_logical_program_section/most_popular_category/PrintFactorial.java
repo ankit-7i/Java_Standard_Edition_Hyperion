@@ -19,6 +19,7 @@ public class PrintFactorial {
         long res = printFactorial(val);
 
         System.out.println(res);
+        sc.close();
 
     }
 }
