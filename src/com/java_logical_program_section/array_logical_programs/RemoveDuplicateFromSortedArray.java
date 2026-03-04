@@ -35,6 +35,5 @@ public class RemoveDuplicateFromSortedArray {
         System.out.println("sorted array elements are: "+ Arrays.toString(arr));
     }
 
-    // Let's Remove  duplicate value from array
-
+    // Let's Remove  duplicate value from arra
 }
