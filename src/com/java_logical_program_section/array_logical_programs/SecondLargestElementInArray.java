@@ -18,16 +18,26 @@ public class SecondLargestElementInArray {
             arr[i] = sc.nextInt();
         }
 
-        System.out.println("Array elements are: "+ Arrays.toString(arr));
+        System.out.println("Array elements are: " + Arrays.toString(arr));
 
-        int max  = Integer.MIN_VALUE;
+        int max = Integer.MIN_VALUE;
         int secondMax = Integer.MIN_VALUE;
-        for (int i = 0; i < size; i++){
-            if(arr[i]>max){
+        for (int i = 0; i < size; i++) {
+            if (arr[i] > max) {
                 secondMax = max;
                 max = arr[i];
+            } else if (arr[i] > secondMax && arr[i] != max) {
+                secondMax = arr[i];
             }
+
+
         }
-        else if (arr[])
+        if(secondMax == Integer.MIN_VALUE){
+            System.out.println("There is no second largest element in the array");
+        }
+        else{
+            System.out.println("The second largest element in the array is: "+ secondMax);
+        }
     }
+
 }
