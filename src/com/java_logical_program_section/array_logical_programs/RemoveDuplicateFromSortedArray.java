@@ -33,7 +33,26 @@ public class RemoveDuplicateFromSortedArray {
             }
         }
         System.out.println("sorted array elements are: "+ Arrays.toString(arr));
+
+        // Let's Remove  duplicate value from array
+        for (int i = 0; i<size; i++){
+            boolean flag = false;
+            for (int j = 0 ; j < i;j++){
+                if(arr[i] == arr[j]){
+                    flag = true;
+                    break;
+                }
+            }
+            if(!flag){
+                System.out.println(arr[i]+ " ");
+            }
+        }
     }
 
-    // Let's Remove  duplicate value from arra
+
 }
+
+
+
+
+
