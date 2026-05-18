@@ -27,5 +27,6 @@ public class CheckingArmStrongNumber {
         } else {
             System.out.println(num + " is not an Armstrong number");
         }
+
     }
 }
